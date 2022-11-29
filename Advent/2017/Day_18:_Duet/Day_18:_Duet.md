@@ -334,3 +334,11 @@ jgz a -2
   instruction is executed with a non-zero value?
  </p>
 </article>
+
+<details><summary>Easter Egg</summary>
+
+        <span title="I don't recommend actually trying this.">
+        plays a sound
+        </span>
+
+</details>

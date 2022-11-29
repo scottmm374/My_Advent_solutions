@@ -172,15 +172,16 @@
  <pre><code>p=&lt; 3,0,0&gt;, v=&lt; 2,0,0&gt;, a=&lt;-1,0,0&gt;    -4 -3 -2 -1  0  1  2  3  4
 p=&lt; 4,0,0&gt;, v=&lt; 0,0,0&gt;, a=&lt;-2,0,0&gt;                         (0)(1)
 
-p=&lt; 4,0,0&gt;, v=&lt; 1,0,0&gt;, a=&lt;-1,0,0&gt;    -4 -3 -2 -1  0  1  2  3  4
-p=&lt; 2,0,0&gt;, v=&lt;-2,0,0&gt;, a=&lt;-2,0,0&gt;                      (1)   (0)
+p=&lt; 4,0,0&gt;, v=&lt; 1,0,0&gt;, a=&lt;-1,0,0&gt; -4 -3 -2 -1 0 1 2 3 4
+p=&lt; 2,0,0&gt;, v=&lt;-2,0,0&gt;, a=&lt;-2,0,0&gt; (1) (0)
 
-p=&lt; 4,0,0&gt;, v=&lt; 0,0,0&gt;, a=&lt;-1,0,0&gt;    -4 -3 -2 -1  0  1  2  3  4
-p=&lt;-2,0,0&gt;, v=&lt;-4,0,0&gt;, a=&lt;-2,0,0&gt;          (1)               (0)
+p=&lt; 4,0,0&gt;, v=&lt; 0,0,0&gt;, a=&lt;-1,0,0&gt; -4 -3 -2 -1 0 1 2 3 4
+p=&lt;-2,0,0&gt;, v=&lt;-4,0,0&gt;, a=&lt;-2,0,0&gt; (1) (0)
 
-p=&lt; 3,0,0&gt;, v=&lt;-1,0,0&gt;, a=&lt;-1,0,0&gt;    -4 -3 -2 -1  0  1  2  3  4
-p=&lt;-8,0,0&gt;, v=&lt;-6,0,0&gt;, a=&lt;-2,0,0&gt;                         (0)   
+p=&lt; 3,0,0&gt;, v=&lt;-1,0,0&gt;, a=&lt;-1,0,0&gt; -4 -3 -2 -1 0 1 2 3 4
+p=&lt;-8,0,0&gt;, v=&lt;-6,0,0&gt;, a=&lt;-2,0,0&gt; (0)  
 </code></pre>
+
  <p>
   At this point, particle
   <code>
@@ -210,3 +211,15 @@ p=&lt;-8,0,0&gt;, v=&lt;-6,0,0&gt;, a=&lt;-2,0,0&gt;                         (0)
   in the long term?
  </p>
 </article>
+
+<details>
+<summary>:egg:</summary>
+
+        <p>
+        Suddenly, the GPU contacts you, asking for
+        <span title="...as if millions of graphics pipelines suddenly cried out for help, but suddenly started working on something else instead because
+        they all have to do the same thing at the same time and can't spend very long asking for help.">
+        help
+
+  </span>
+</details>
