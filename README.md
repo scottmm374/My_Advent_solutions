@@ -8,13 +8,13 @@
 <thead>
 <tr>
 <td>Day</td>
-<td colspan="2" align="center" style="background-color:whitesmoke"><a href="https://github.com/scottmm374/My_Advent_solutions/tree/readme_edit/Advent/2015">2015</a> </td>
-<td colspan="2" align="center">2016</td>
-<td colspan="2" align="center" style="background-color:whitesmoke"  >2017</td>
-<td colspan="2" align="center">2018</td>
-<td colspan="2" align="center" style="background-color:whitesmoke" >2019</td>
-<td colspan="2" align="center">2020</td>
-<td colspan="2"align="center"  style="background-color:whitesmoke" >2021</td>
+<td colspan="2" align="center" style="background-color:whitesmoke"><a href="https://github.com/scottmm374/My_Advent_solutions/blob/main/Advent/2015/2015.md">2015</a> </td>
+<td colspan="2" align="center"><a href="https://github.com/scottmm374/My_Advent_solutions/blob/main/Advent/2016/2016.md">2016</a></td>
+<td colspan="2" align="center" style="background-color:whitesmoke"><a href="https://github.com/scottmm374/My_Advent_solutions/blob/main/Advent/2017/2017.md">2017</a></td>
+<td colspan="2" align="center"><a href="https://github.com/scottmm374/My_Advent_solutions/blob/main/Advent/2018/2018.md">2018</a></td>
+<td colspan="2" align="center" style="background-color:whitesmoke" ><a href="https://github.com/scottmm374/My_Advent_solutions/blob/main/Advent/2019/2019.md">2019</a></td>
+<td colspan="2" align="center"><a href="https://github.com/scottmm374/My_Advent_solutions/blob/main/Advent/2020/2020.md">2020</a></td>
+<td colspan="2"align="center"  style="background-color:whitesmoke" ><a href="https://github.com/scottmm374/My_Advent_solutions/blob/main/Advent/2021/2021.md">2021</a></td>
 </tr>
 </thead>
   <tr>
