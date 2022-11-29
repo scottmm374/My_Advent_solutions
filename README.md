@@ -1,17 +1,14 @@
-#### Advent
+#### Python solutions Advent of Code
 
-<!-- | Puzzle Day   | Current Status | Finished Part_1      | Finished Part_2 |
-| ------------ | -------------- | -------------------- | --------------- |
-| Day 1        | in progress    | [:heavy_check_mark:] | - [x]           |
-| Object Cache | in progress    |                      |                 |
-| Object Cache | in progress    |                      |                 |
-| Object Cache | in progress    |                      |                 | -->
+[Visit Advent of Code](https://adventofcode.com)
+
+#### Advent
 
 <table>
 <thead>
 <tr>
 <td>Day</td>
-<td colspan="2" align="center" style="background-color:whitesmoke" >2015 </td>
+<td colspan="2" align="center" style="background-color:whitesmoke"><a href="https://github.com/scottmm374/My_Advent_solutions/tree/readme_edit/Advent/2015">2015</a> </td>
 <td colspan="2" align="center">2016</td>
 <td colspan="2" align="center" style="background-color:whitesmoke"  >2017</td>
 <td colspan="2" align="center">2018</td>
