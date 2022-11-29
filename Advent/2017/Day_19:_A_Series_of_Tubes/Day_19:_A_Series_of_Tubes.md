@@ -36,9 +36,10 @@
      A  |  C    
  F---|----E|--+ 
      |  |  |  D 
-     +B-+  +--+ 
+     +B-+  +--+
 
 </code></pre>
+
  <p>
   Given this diagram, the packet needs to take the following path:
  </p>
@@ -99,3 +100,11 @@
   (in the order it would see them) if it follows the path? (The routing diagram is very wide; make sure you view it without line wrapping.)
  </p>
 </article>
+
+<details><summary>Easter Egg</summary>
+
+         <span title="I know how fast it's going, but I don't know where it is.">
+        lost
+        </span>
+
+</details>
