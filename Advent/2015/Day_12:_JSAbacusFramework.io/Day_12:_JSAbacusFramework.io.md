@@ -173,9 +173,6 @@
 <br>
 <div align="center">
 <h2>LAST CHANCE TO SCROLL BACK UP</h2>
-<p>
-<img src='../images/swirl.png'/>
-</p>
 </div>
 <br>
 <br>
