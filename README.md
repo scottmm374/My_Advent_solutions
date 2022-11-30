@@ -131,7 +131,7 @@
      <input type="checkbox" />
     </td>
     <td style="background-color:whitesmoke" >
-     <input type="checkbox" />
+     :star:
     </td>
     <td style="background-color:whitesmoke" >
      <input type="checkbox" />
@@ -166,13 +166,13 @@
       3
     </td>
     <td style="background-color:whitesmoke" >
-      :star:
+      <input type="checkbox" />
     </td>
     <td style="background-color:whitesmoke" >
       <input type="checkbox" />
     </td>
     <td>
-      <input type="checkbox" />
+      :star:
     </td>
     <td>
      <input type="checkbox" />
@@ -225,7 +225,7 @@
      <input type="checkbox" />
     </td>
     <td style="background-color:whitesmoke" >
-     <input type="checkbox" />
+     :star:
     </td>
     <td style="background-color:whitesmoke" >
      <input type="checkbox" />

@@ -182,3 +182,7 @@
   </em>
  </p>
 </article>
+
+<details><summary>:egg:</summary>
+"Maybe they're Bresenham vents."
+</details>
