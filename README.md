@@ -15,6 +15,7 @@
 <td colspan="2" align="center" style="background-color:whitesmoke" ><a href="https://github.com/scottmm374/My_Advent_solutions/blob/main/Advent/2019/2019.md">2019</a></td>
 <td colspan="2" align="center"><a href="https://github.com/scottmm374/My_Advent_solutions/blob/main/Advent/2020/2020.md">2020</a></td>
 <td colspan="2"align="center"  style="background-color:whitesmoke" ><a href="https://github.com/scottmm374/My_Advent_solutions/blob/main/Advent/2021/2021.md">2021</a></td>
+<td colspan="2"align="center"  style="background-color:whitesmoke" >2022</td>
 </tr>
 </thead>
   <tr>
@@ -66,6 +67,12 @@
     <td style="background-color:whitesmoke" >
       P2
     </td>
+    <td >
+      P1
+    </td>
+    <td>
+      P2
+    </td>
   </tr>
   <tr>
     <td>
@@ -112,6 +119,12 @@
     </td>
     <td style="background-color:whitesmoke" >
       <input type="checkbox" />
+    </td>
+    <td>
+      :star:
+    </td>
+    <td>
+      :star:
     </td>
   </tr>
   <tr>
@@ -160,6 +173,12 @@
     <td style="background-color:whitesmoke" >
       :star:
     </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
   </tr>
   <tr>
     <td>
@@ -205,6 +224,12 @@
       :star:
     </td>
     <td style="background-color:whitesmoke" >
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
       <input type="checkbox" />
     </td>
   </tr>
@@ -254,6 +279,12 @@
     <td style="background-color:whitesmoke" >
       <input type="checkbox" />
     </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
   </tr>
   <tr>
     <td>
@@ -299,6 +330,12 @@
       <input type="checkbox" />
     </td>
     <td style="background-color:whitesmoke" >
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
       <input type="checkbox" />
     </td>
   </tr>
@@ -348,6 +385,12 @@
     <td style="background-color:whitesmoke" >
       <input type="checkbox" />
     </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
   </tr>
   <tr>
     <td>
@@ -393,6 +436,12 @@
       <input type="checkbox" />
     </td>
     <td style="background-color:whitesmoke" >
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
       <input type="checkbox" />
     </td>
   </tr>
@@ -442,6 +491,12 @@
     <td style="background-color:whitesmoke" >
       <input type="checkbox" />
     </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
   </tr>
   <tr>
     <td>
@@ -487,6 +542,12 @@
       <input type="checkbox" />
     </td>
     <td style="background-color:whitesmoke" >
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
       <input type="checkbox" />
     </td>
   </tr>
@@ -536,6 +597,12 @@
     <td style="background-color:whitesmoke" >
       <input type="checkbox" />
     </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
   </tr>
   <tr>
     <td>
@@ -581,6 +648,12 @@
       <input type="checkbox" />
     </td>
     <td style="background-color:whitesmoke" >
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
       <input type="checkbox" />
     </td>
   </tr>
@@ -630,6 +703,12 @@
     <td style="background-color:whitesmoke" >
       <input type="checkbox" />
     </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
   <tr>
     <td>
       13
@@ -674,6 +753,12 @@
       <input type="checkbox" />
     </td>
     <td style="background-color:whitesmoke" >
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
       <input type="checkbox" />
     </td>
   </tr>
@@ -723,6 +808,12 @@
     <td style="background-color:whitesmoke" >
       <input type="checkbox" />
     </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
   </tr>
   <tr>
     <td>
@@ -768,6 +859,12 @@
       <input type="checkbox" />
     </td>
     <td style="background-color:whitesmoke" >
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
       <input type="checkbox" />
     </td>
   </tr>
@@ -817,6 +914,12 @@
     <td style="background-color:whitesmoke" >
       <input type="checkbox" />
     </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
   </tr>
   <tr>
     <td>
@@ -862,6 +965,12 @@
       <input type="checkbox" />
     </td>
     <td style="background-color:whitesmoke" >
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
       <input type="checkbox" />
     </td>
   </tr>
@@ -911,6 +1020,12 @@
     <td style="background-color:whitesmoke" >
       <input type="checkbox" />
     </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
   </tr>
   <tr>
     <td>
@@ -956,6 +1071,12 @@
       <input type="checkbox" />
     </td>
     <td style="background-color:whitesmoke" >
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
       <input type="checkbox" />
     </td>
   </tr>
@@ -1005,6 +1126,12 @@
     <td style="background-color:whitesmoke" >
       <input type="checkbox" />
     </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
   </tr>
   <tr>
     <td>
@@ -1050,6 +1177,12 @@
       <input type="checkbox" />
     </td>
     <td style="background-color:whitesmoke" >
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
       <input type="checkbox" />
     </td>
   </tr>
@@ -1099,6 +1232,12 @@
     <td style="background-color:whitesmoke" >
       <input type="checkbox" />
     </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
   </tr><tr>
     <td>
       23
@@ -1143,6 +1282,12 @@
       <input type="checkbox" />
     </td>
     <td style="background-color:whitesmoke" >
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
       <input type="checkbox" />
     </td>
   </tr><tr>
@@ -1191,6 +1336,12 @@
     <td style="background-color:whitesmoke" >
       <input type="checkbox" />
     </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
   </tr><tr>
     <td>
       25
@@ -1235,6 +1386,12 @@
       <input type="checkbox" />
     </td>
     <td style="background-color:whitesmoke" >
+      <input type="checkbox" />
+    </td>
+    <td>
+      <input type="checkbox" />
+    </td>
+    <td>
       <input type="checkbox" />
     </td>
   </tr>
