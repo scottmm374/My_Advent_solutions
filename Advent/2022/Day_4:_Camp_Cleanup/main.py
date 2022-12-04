@@ -3,7 +3,7 @@
 def main():
   inclusive_ranges = 0
   
-  with open('sample.txt', 'r') as f:
+  with open('input.txt', 'r') as f:
       for line in f.readlines():
         check = check_ranges(line.strip())
         print("results", check)
@@ -18,25 +18,17 @@ def check_ranges(line):
     new_line = line.replace("-",",")  
     ranges.append(new_line.split(","))
 
-    # if int(ranges[0][0]) or int(ranges[0][1]) < int(ranges[0][2]):
-        # print("False", ranges)
-    #     return False
-    # elif int(ranges[0][0]) or int(ranges[0][1]) > int(ranges[0][3]):
-    #     print("False", ranges)
-    #     return False 
-    # else:  
-    #     print("True", ranges)
-    #     return True
 
-    if int(ranges[0][0]) <= int(ranges[0][2]) and int(ranges[0][1]) >= int(ranges[0][3]):
-        print("True", ranges)
-        return True
-    if int(ranges[0][0]) >= int(ranges[0][2]) and int(ranges[0][1]) <= int(ranges[0][3]):
-        print("True", ranges)
-        return True 
+  #  Part_2 solution 
+    if int(ranges[0][0]) < int(ranges[0][2]) and int(ranges[0][1]) < int(ranges[0][2]) and int(ranges[0][1]) < int(ranges[0][3]):
+        print("False", ranges)
+        return False
+    if int(ranges[0][0]) > int(ranges[0][2]) and int(ranges[0][0]) > int(ranges[0][3]):
+        print("False", ranges)
+        return False 
     else:  
-      print("False", ranges)
-      return False
+      print("True", ranges)
+      return True
 
 
 
