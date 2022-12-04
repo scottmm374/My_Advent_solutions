@@ -41,11 +41,6 @@ def check_ranges(line):
     #   return False
 
 
-    
-
-          
-        
-
 
 if __name__ == '__main__':
     result = main()
