@@ -227,10 +227,10 @@
       <input type="checkbox" />
     </td>
     <td>
-      <input type="checkbox" />
+      :star:
     </td>
     <td>
-      <input type="checkbox" />
+      :star:
     </td>
   </tr>
   <tr>

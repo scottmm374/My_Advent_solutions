@@ -1,6 +1,7 @@
 
 
 def main():
+    
     play_rounds = list()
     with open("input.txt") as f:
 
