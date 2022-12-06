@@ -290,10 +290,10 @@ My progress so far
       <input type="checkbox" />
     </td>
     <td>
-      <input type="checkbox" />
+      :star:
     </td>
     <td>
-      <input type="checkbox" />
+      :star:
     </td>
   </tr>
   <tr>
@@ -343,10 +343,10 @@ My progress so far
       <input type="checkbox" />
     </td>
     <td>
-      <input type="checkbox" />
+      :star:
     </td>
     <td>
-      <input type="checkbox" />
+      :star:
     </td>
   </tr>
   <tr>
@@ -396,10 +396,10 @@ My progress so far
       <input type="checkbox" />
     </td>
     <td>
-      <input type="checkbox" />
+      :star:
     </td>
     <td>
-      <input type="checkbox" />
+      :star:
     </td>
   </tr>
   <tr>
