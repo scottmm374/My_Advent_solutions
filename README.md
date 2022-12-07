@@ -301,7 +301,7 @@ My progress so far
       5
     </td>
     <td style="background-color:whitesmoke" >
-      <input type="checkbox" />
+      :star:
     </td>
     <td style="background-color:whitesmoke" >
       <input type="checkbox" />
