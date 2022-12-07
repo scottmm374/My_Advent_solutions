@@ -11,6 +11,7 @@ class SystemTree:
         self.tail = node
         # Need length?
 
+
     def __repr__(self):
         current_node = self.head
         nodes = []
@@ -40,3 +41,11 @@ class SystemTree:
             self.tail.next = None
 
 
+tree = SystemTree()
+tree.add_to_tail("a")
+tree.add_to_tail("b")
+tree.add_to_tail("c")
+tree.add_to_tail("d")
+tree.add_to_tail("e")
+tree.add_to_tail("f")
+print(tree)
