@@ -1,0 +1,57 @@
+<-------Current coodinates (1, 1)------->
+keep traveling UP (1, 1)
+keep traveling DOWN (1, 1)
+keep traveling RIGHT (1, 1)
+keep traveling LEFT (1, 1)
+<-------Current coodinates (1, 2)------->
+keep traveling UP (1, 2)
+keep traveling DOWN (1, 2)
+keep traveling RIGHT (1, 2)
+keep traveling LEFT (1, 2)
+<-------Current coodinates (1, 3)------->
+No going up
+No going down
+No going right
+No going right
+(1, 3) is blocked height 1
+<-------Current coodinates (2, 1)------->
+keep traveling UP (2, 1)
+keep traveling DOWN (2, 1)
+keep traveling RIGHT (2, 1)
+No going right
+<-------Current coodinates (2, 2)------->
+No going up
+No going down
+keep traveling RIGHT (2, 2)
+No going right
+<-------Current coodinates (2, 3)------->
+keep traveling UP (2, 3)
+No going down
+keep traveling RIGHT (2, 3)
+keep traveling LEFT (2, 3)
+<-------Current coodinates (3, 1)------->
+No going up
+No going down
+No going right
+keep traveling LEFT (3, 1)
+<-------Current coodinates (3, 2)------->
+keep traveling UP (3, 2)
+keep traveling DOWN (3, 2)
+keep traveling RIGHT (3, 2)
+keep traveling LEFT (3, 2)
+<-------Current coodinates (3, 3)------->
+keep traveling UP (3, 3)
+No going down
+No going right
+No going right
+
+
+
+[
+    [3, 0, 3, 7, 3], 
+    [2, 5, 5, 1, 2], 
+    [6, 5, 3, 3, 2], 
+    [3, 3, 5, 4, 9], 
+    [3, 5, 3, 9, 0]
+
+]
