@@ -2,7 +2,7 @@ import math
 # create rounds up to 20
 
 def main():
-    rounds = 0
+    rounds = 1
     monkey_zero = [79, 98]
     monkey_one = [54, 65, 75, 74]
     monkey_two = [79, 60, 97]
@@ -15,7 +15,7 @@ def main():
 
     # count = keep_going(rounds)
     
-    while rounds <= 5:
+    while rounds <= 20:
         monkey_zero, monkey_two, monkey_three, m_zero = check_monkey_zero(monkey_zero, monkey_two, monkey_three, m_zero)
         monkey_zero, monkey_one, monkey_two, m_one = check_monkey_one(monkey_zero, monkey_one, monkey_two, m_one)
         monkey_one, monkey_two, monkey_three, m_two = check_monkey_two(monkey_one, monkey_two, monkey_three, m_two)
@@ -24,8 +24,12 @@ def main():
         rounds  = rounds + 1
         print(f'-------------Round:{rounds}----------')
         print(f'Zero:{monkey_zero}\n, One:{monkey_one}\n, Two:{monkey_two}\n, Three:{monkey_three}')
-    else:   
-        return f'{m_zero}, {m_one}, {m_two}, {m_three}'
+
+
+    monkeys = [m_zero, m_one, m_two, m_three] 
+    find_max = sorted(monkeys, reverse=True)  
+    return find_max[0] * find_max[1]
+    # return f'{m_zero}, {m_one}, {m_two}, {m_three}'
 
 # def keep_going(count):
 #     if count == 20:
