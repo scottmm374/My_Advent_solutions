@@ -1,36 +1,45 @@
-class Node:
-    def __init__( self, name, size=0):
-        self.name = name
-        self.size = size
-        self.children = []
-
-def addChild(name, size=0):
-    new_node = Node(name, size)
-    return new_node
+class Node(dir):
+    def __init__( self, value):
+       self.value = value
+       self.next = None
 
 
-def traverse(root):
-    if(root == None):
-        return;
+    def get_data(self):
+        return self.value
 
-    que = []
-    que.append(root)
+    def set_data(self, value):
+        self.value = value
+
+    def get_next(self):
+        return self.next
+
+    def set_next(self, next):
+        self.next = next
+
+class 
+
+# def traverse(root):
+#     if(root == None):
+#         return;
+
+#     que = []
+#     que.append(root)
 
     
-    while len(que) != 0:
-        x = len(que)
+#     while len(que) != 0:
+#         x = len(que)
 
-        # traverse if children
-        while x > 0:
+#         # traverse if children
+#         while x > 0:
 
-            parent = que[0]
-            que.pop(0)
-            print(f'{parent.name} is {parent.size} mb', end=' ')
+#             parent = que[0]
+#             que.pop(0)
+#             print(f'{parent.name} is {parent.size} mb', end=' ')
 
-            for i in range(len(parent.children)):
-                que.append(parent.children[i])
-            x -= 1
-        print()
+#             for i in range(len(parent.children)):
+#                 que.append(parent.children[i])
+#             x -= 1
+#         print()
 
 if __name__ == "__main__":
     root = Node("/")

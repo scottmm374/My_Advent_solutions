@@ -6,7 +6,7 @@ def main():
     with open('input.txt', 'r') as file:
         lines = file.readlines()
         # print(lines)
-        for line in lines[:20]:
+        for line in lines:
             instructions = line.strip().split()
             system_files.append(process(instructions))
     print(system_files)        
@@ -14,10 +14,14 @@ def main():
 def process(data):
 
     if data[1] == 'ls':
-        return f'Listing children: '
+        return f'CONTAINS'
+    
+    if data[1] == 'cd' and data[2] != '..':
+        parent_name = f'PARENT_DIR: "{data[2]}"'
+        return parent_name 
 
-    if data[1] == 'cd':
-        parent_name = data[2]
+    if data[1] == 'cd' and data[2] == '..':
+        parent_name = f'Move up one Dir'
         return parent_name 
 
     if data[0].isnumeric():

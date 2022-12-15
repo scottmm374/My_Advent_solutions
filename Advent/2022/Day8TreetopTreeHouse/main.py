@@ -1,113 +1,156 @@
 
-# forest = []
-
-# with open("input.txt", "r") as file:
-#     rows = file.readlines()
-#     for x in rows:
-#         print(len(x.strip()))
-#         tree_line = []
-#         for y in x.strip():
-#             tree_line.append(int(y))
-#         forest.append(tree_line)
-        
-forest = [[3,0,3,7,3], [2,5,5,1,2], [6,5,3,3,2], [3,3,5,4,9], [3,5,3,9,0]]
-# get number of trees on edge
-count_outside = ((len(forest) * 2) + (len(forest[0]) - 2) * 2)
-
-visible = 0
-not_visible = 0
 
 
+def main():
+   
 
+    forest = []
 
-for tree_row in range(len(forest)):
+    with open("input.txt", "r") as file:
+        rows = file.readlines()
+        for x in rows:
+            # print(len(x.strip()))
+            tree_line = []
+            for y in x.strip():
+                tree_line.append(int(y))
+            forest.append(tree_line)
     
-    for tree_col in range(len(forest[tree_row])):
+    # forest = [
+    #     [9,9,9,9,9,9,9,9],
+    #     [3,3,4,3,7,3,0,0], 
+    #     [2,2,2,5,5,1,1,1], 
+    #     [6,5,3,3,2,1,1,1], 
+    #     [3,3,5,2,2,1,1,1], 
+    #     [3,5,7,9,0,0,0,0],
+    #     [9,9,9,9,9,9,9,9], 
+    #     ]
+    
+    count_outside = ((len(forest) * 2) + (len(forest[0]) - 2) * 2)
+    # area = len(forest) * len(forest[0])
+    # print(area)
+    visible = 0
+   
+
+    visible_coods = []
+    not_visible_coods = []
+
+# CHECK RIGHT
+    def check_right(x=1):
+        print(f'RIGHT: {curr_tree}')
+        print("INDEX right", tree_col + x, "tree_col", tree_col, "x:", x)
+        if tree_col + x == len(forest[0]) - 1:
+            print("CHeck right if tree_col + x == len -1", tree_col + x)
+            if curr_tree > forest[tree_row][tree_col + x]:
+                # print(f' RIGHT Curr: {curr_tree}, CHeCKING: {forest[tree_row][tree_col + x]}')
+                return True
+            else:
+                return False
+
         
-        tree = forest[tree_row][tree_col]
+        if curr_tree <= forest[tree_row][tree_col + x]:
+            return False
+        
+        return check_right(x + 1)
+    
+# CHECK LEFT
+    def check_left(x=1):
+        
+        print(f'Left: {curr_tree}')
+        print("inx", tree_col - x, "Tree_col", tree_col, "X", x)
+
+        if tree_col - x == 0:
+            
+            if curr_tree > forest[tree_row][tree_col - x]:
+                # print(f' LEFT Curr: {curr_tree}, CHeCKING: {forest[tree_row][tree_col - x]}')
+                return True
+            else:
+                # print("else",curr_tree, forest[tree_row][tree_col - x])
+                return False
+        
+        
+        if curr_tree <= forest[tree_row][tree_col - x]:
+            return False
+        
+        return check_left(x + 1)
+
+# CHECK UP
+    def check_up(x=1):
+        # x = tree_row
+        print(f'UP: {curr_tree}')
+        print("inx", tree_row - x, "Tree_row", tree_row, "X", x)
+        if tree_row - x == 0:
+            
+            if curr_tree > forest[tree_row - x][tree_col]:
+                print(f' UP Curr: {curr_tree}, CHeCKING: {forest[tree_row - x][tree_col]}')
+                return True
+            else:
+                return False
+        
+        
+        if curr_tree <= forest[tree_row - x][tree_col]:
+            return False
+        
+        return check_up(x + 1)
+
+# Check Down
+    def check_down(x=1):
+        print(f'Down: {curr_tree}')
+        print("inx", tree_row + x, "Tree_row", tree_row, "X", x)
+        if tree_row + x == len(forest) -1:
+            
+            if curr_tree > forest[tree_row + x][tree_col]:
+                # print(f' Down Curr: {curr_tree}, CHeCKING: {forest[tree_row + x][tree_col]}')
+                return True
+            else:
+                return False
        
-        if tree_row >= 1 and tree_col >= 1 and tree_row < len(forest) - 1 and tree_col < len(forest[tree_row]) - 1:
+        if curr_tree <= forest[tree_row + x][tree_col]:
+            return False
+        
+        return check_down(x + 1)
+
+    
+    for tree_row in range(len(forest)):
+    
+        for tree_col in range(len(forest[0])):
+    
+            if tree_row > 0 and tree_row < len(forest) - 1 and tree_col > 0 and tree_col < len(forest[0]) - 1:
+
+                curr_tree = forest[tree_row][tree_col]
+                print(f'-------- CURRENT TREE: ({tree_row},{tree_col}) {curr_tree} ------------------ ')
+
+                blocked = 0
+                # print("Blocked, should be zero", blocked)
+                is_right_visible = check_right()
+                if is_right_visible == False:
+                    blocked +=1
+                    
+                is_left_visible = check_left()
+                if is_left_visible == False:
+                    blocked +=1
+                    
+                is_up_visible = check_up()
+                if is_up_visible == False:
+                    blocked +=1
+                   
+                is_down_visible = check_down()
+                if is_down_visible == False:
+                    blocked +=1
+
+                # print(blocked)
+                if blocked != 4:
+                    visible_coods.append((tree_row, tree_col))
+                    visible +=1
+                else:
+                    not_visible_coods.append((tree_row, tree_col))
+                   
            
-
-            x = 1
-            up = forest[tree_row - x][tree_col]
-            print(up)
-            down = forest[tree_row + x][tree_col]
-            right = forest[tree_row][tree_col + x]
-            left = forest[tree_row][tree_col - x]
-        
-            blocked = 0
-            print(f'<-------Current coodinates {(tree_row, tree_col)}------->')
-            print(up)
-            # ! UP
-            if tree <= up:
-                blocked += 1
-                print("No going up")
-            
-            else:
-                while x != 0:
-                    print(f'Tree:{tree} Up:{up}')
-                    x = x - 1
-                    if tree < up:
-                        blocked +=1
-                        break
-            x = 1 
-            print(up)  
-                
-            # ! DOWN
-            if tree <= down:
-                 blocked += 1
-                 print("No going down")
-
-            else:
-                while x < len(forest):
-                    print(f'Tree:{tree} Down:{down}')
-                    x = x + 1 
-                    if tree < down:
-                        blocked +=1
-                        break
-            x = 1   
-            print(up)   
-
-                
-            
-            # ! RiGHT
-            if tree <= right:
-                    blocked += 1
-                    print("No going right")
-            else:
-                while x < len(forest[tree_col]):
-                    print(f'Tree:{tree} Right:{right}')
-                    x = x + 1 
-                  
-                    if tree < right:
-                        blocked +=1
-                        break
-            x = 1
-            print(up)   
+    # print(f'Visible: {visible_coods}\n NOT: {not_visible_coods}')
 
 
-            #  ! LEFT
-            if tree <= left:
-                    blocked += 1
-                    print("No going left")
-            else:
-                while x != 0:
-                    print(f'Tree:{tree} Left:{left}')
-                    x = x - 1
-                    if tree < left:
-                        blocked +=1
-                        break
-            x = 1
-            print(up)   
+    print(visible + count_outside)
+    print(len(visible_coods), len(not_visible_coods))   
+    # print(visible_coods)
 
-            print(blocked)
-            if blocked == 4:
-                not_visible +=1
-                print(f"{(tree_row, tree_col)} is blocked height {tree}")
-            else:
-                visible += 1
-                print(f"{(tree_row, tree_col)} is VISIBLE height {tree}")
-        
-
-print(f'{visible} Visible and {not_visible} NOT Visible')
+if __name__ == "__main__":
+    main()
