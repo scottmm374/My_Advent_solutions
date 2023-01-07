@@ -130,3 +130,8 @@ dmypy.json
 input.txt
 .DS_Store
 .vscode/
+sample.py
+sample.txt
+nothing.py
+main_2.py
+

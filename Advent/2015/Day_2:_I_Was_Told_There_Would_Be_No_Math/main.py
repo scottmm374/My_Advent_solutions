@@ -57,6 +57,9 @@ def calc_total_paper(surface, smallest_side):
     return surface + smallest_side
 
 
+def calc_ribbon(dimensions):
+    pass
+
 
 if __name__ == "__main__":
     main()
