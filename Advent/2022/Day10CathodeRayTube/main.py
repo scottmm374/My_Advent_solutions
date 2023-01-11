@@ -16,7 +16,7 @@ def main():
                 y, num = x.split()
                 instructions.append(int(num))
     lookup = {}
-    cycle = 0
+    cycle = 1
     sub_total = 1
     y = 0
     for x in instructions:
@@ -31,8 +31,12 @@ def main():
             sub_total += y
             lookup[cycle] = sub_total
             y = 0
-    print(lookup)
 
+    print(lookup[20] * 20 + lookup[60] * 60 + lookup[100] * 100 + lookup[140] * 140 + lookup[180] * 180 + lookup[220] * 220)
+      
+    
         
 
 main()
+
+
