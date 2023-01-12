@@ -195,7 +195,7 @@ My progress so far
       3
     </td>
     <td style="background-color:whitesmoke" >
-      <input type="checkbox" />
+      :star:
     </td>
     <td style="background-color:whitesmoke" >
       <input type="checkbox" />
@@ -608,7 +608,7 @@ My progress so far
       <input type="checkbox" />
     </td>
     <td>
-      <input type="checkbox" />
+      :star:
     </td>
     <td>
       <input type="checkbox" />
